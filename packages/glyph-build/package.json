@@ -2,6 +2,7 @@
   "name": "glyphbench-build",
   "version": "0.0.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "description": "The glyphbench compile worker: fontTools on Pyodide, in a Web Worker.",
   "exports": {

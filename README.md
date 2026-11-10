@@ -69,8 +69,9 @@ npm run typecheck
 npm run dev       # the playground
 ```
 
-## Licensing
+## License
 
-TBD, and it matters here: the two closest prior-art projects (Fontra and Glyphr
-Studio 2) are GPL-3.0, so borrowing their code would force GPL. Every dependency
-currently in the tree is MIT or permissive.
+MIT. Deliberately not GPL, and that has a cost: the two closest prior-art
+projects (Fontra, Glyphr Studio 2) are GPL-3.0, so nothing from them can be
+copied into this tree. Read them for design decisions, never for code. Every
+dependency here is MIT or permissive.

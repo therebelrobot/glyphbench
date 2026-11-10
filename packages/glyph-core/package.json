@@ -2,6 +2,7 @@
   "name": "glyphbench-core",
   "version": "0.0.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "description": "The glyphbench document model and geometry. No DOM, no React.",
   "exports": {

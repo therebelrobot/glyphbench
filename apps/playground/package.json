@@ -2,6 +2,7 @@
   "name": "glyphbench-playground",
   "version": "0.0.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "description": "Dev harness for glyphbench. The only place a demo lives.",
   "scripts": {

@@ -2,6 +2,7 @@
   "name": "glyphbench-editor",
   "version": "0.0.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "description": "The glyphbench React editing surface: real SVG, not canvas.",
   "exports": {

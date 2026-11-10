@@ -2,6 +2,7 @@
   "name": "glyphbench-io",
   "version": "0.0.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "description": "Importers and exporters for glyphbench: UFO/GLIF, TTF, WOFF2.",
   "exports": {

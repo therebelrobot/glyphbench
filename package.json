@@ -2,6 +2,7 @@
   "name": "glyphbench",
   "version": "0.0.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "description": "An agnostic in-browser font glyph builder: a headless core with a real SVG editing surface.",
   "engines": {
