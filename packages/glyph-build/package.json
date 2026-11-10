@@ -1,0 +1,16 @@
+{
+  "name": "@therebelrobot/glyph-build",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The glyphbench compile worker: fontTools on Pyodide, in a Web Worker.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@therebelrobot/glyph-core": "*"
+  }
+}

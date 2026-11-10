@@ -1,0 +1,14 @@
+{
+  "name": "@therebelrobot/glyph-core",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The glyphbench document model and geometry. No DOM, no React.",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  }
+}

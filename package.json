@@ -1,0 +1,26 @@
+{
+  "name": "glyphbench",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An agnostic in-browser font glyph builder: a headless core with a real SVG editing surface.",
+  "engines": {
+    "node": ">=26"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @therebelrobot/glyph-playground",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.7",
+    "vitest": "^5.1.0"
+  }
+}
