@@ -1,5 +1,5 @@
-import { contourToPathData } from "@therebelrobot/glyph-core";
-import type { Guideline, Glyph } from "@therebelrobot/glyph-core";
+import { contourToPathData } from "glyphbench-core";
+import type { Guideline, Glyph } from "glyphbench-core";
 
 export interface GlyphCanvasProps {
   glyph: Glyph;

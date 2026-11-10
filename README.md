@@ -33,6 +33,11 @@ reader, and the Pyodide compile worker. See [PLAN.md](./PLAN.md).
 | `packages/glyph-build` | The fontTools-on-Pyodide Web Worker. |
 | `apps/playground` | Dev harness. The only place a demo lives. |
 
+The four packages publish unscoped: `glyphbench-core`, `glyphbench-editor`,
+`glyphbench-io`, `glyphbench-build`. The bare name `glyphbench` is free on npm
+and stays reserved on the private workspace root for an umbrella package later.
+Nothing is published yet — every package is still `private`.
+
 ## Decisions
 
 These are load-bearing. Changing one is a conversation, not a commit.

@@ -1,5 +1,5 @@
 {
-  "name": "@therebelrobot/glyph-editor",
+  "name": "glyphbench-editor",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -11,11 +11,11 @@
     "typecheck": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "@therebelrobot/glyph-core": "*"
+    "glyphbench-core": "*"
   },
   "peerDependencies": {
-    "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@types/react": "^19.3.0",

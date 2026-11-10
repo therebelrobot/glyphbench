@@ -1,5 +1,5 @@
 {
-  "name": "@therebelrobot/glyph-playground",
+  "name": "glyphbench-playground",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -11,8 +11,8 @@
     "typecheck": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "@therebelrobot/glyph-core": "*",
-    "@therebelrobot/glyph-editor": "*",
+    "glyphbench-core": "*",
+    "glyphbench-editor": "*",
     "react": "^19.3.1",
     "react-dom": "^19.3.1"
   },

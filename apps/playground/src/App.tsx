@@ -1,5 +1,5 @@
-import { GlyphCanvas } from "@therebelrobot/glyph-editor";
-import type { Contour, Font, Guideline, Point } from "@therebelrobot/glyph-core";
+import { GlyphCanvas } from "glyphbench-editor";
+import type { Contour, Font, Guideline, Point } from "glyphbench-core";
 
 const UPM = 1000;
 let seq = 0;
